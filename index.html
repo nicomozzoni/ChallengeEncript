@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+    
+    <title>Encriptador de textos</title>
+
+    <header class="logo">
+        <img src="/Imagenes/Logo.svg" alt="logo-alura">
+    </header>
+
+    <main>
+        <section class="seccion1">
+            <div class="textcontainer">
+                <textarea name="text-area" placeholder="Ingrese el texto aquí" class="text-box"></textarea>
+                <div class="alerta">
+                    <img src="/Imagenes/alerta.svg" alt="alerta">
+                    <p>Solo letras minúsculas y sin acento</p>
+                </div>
+                <div class="button-container">
+                    <input type="button" class="btn-encrypt" value="Encriptar">
+                    <input type="button" class="btn-decrypt" value="Desencriptar">
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion2">
+            <div class="container-draw"><img src="/Imagenes/Muñeco.svg" alt="muñeco"></div>
+            <div class="container-parragraph">
+                <h3>Ningún mensaje fue <br>encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o <br>desencriptar</p>
+            </div>
+            <div class="container-result">
+                <p class="text-result" style="color: black"></p>
+            </div>
+            <div class="container-copy">
+                <input type="button" class="btn-copy" value="Copiar">
+                <!-- <div class="container-result">
+                    <p class="text-result" style="color: black; background-color: red;"></p>
+                </div> -->
+            </div>
+        </section>    
+        <script src="/script.js"></script>
+    </main>
+
+
+
+
+
+
+
+</head>
+<body>
+    
+</body>
+</html>
